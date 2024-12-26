@@ -27,15 +27,15 @@ stages:
       size: 10561
     - path: src/train.py
       hash: md5
-      md5: 4cb901af58766f7d87eaa49dae6d3e84
-      size: 1124
+      md5: ab6eb685f2bfe51f1c530defac029507
+      size: 1351
     params:
       params.yaml:
         train.model_params.max_iter: 500
     outs:
     - path: model.pkl
       hash: md5
-      md5: 0545316b501bcc188adef76a75f12f13
+      md5: 8b168b90bcaa530ae1173da069bd6a9d
       size: 973
   evaluate:
     cmd: python3 src/evaluate.py --input data/preprocessed/iris_processed.csv --model
@@ -47,7 +47,7 @@ stages:
       size: 10561
     - path: model.pkl
       hash: md5
-      md5: 0545316b501bcc188adef76a75f12f13
+      md5: 8b168b90bcaa530ae1173da069bd6a9d
       size: 973
     - path: src/evaluate.py
       hash: md5
@@ -56,9 +56,9 @@ stages:
     outs:
     - path: metrics.json
       hash: md5
-      md5: f6281317c971a17b6d43e38b7b104aab
-      size: 884
+      md5: e8224b5c49b8cc55a600a755f6c94fc4
+      size: 881
     - path: metrics.yaml
       hash: md5
-      md5: 88accca016c51222234233d53c71c458
-      size: 358
+      md5: 6342fa482a04763114496855816fc5db
+      size: 357
