@@ -1,0 +1,7 @@
+train:
+  model_params:
+    max_iter: 100
+    C: 0.1
+    solver: 'saga'
+    multi_class: 'multinomial'
+    random_state: 42
