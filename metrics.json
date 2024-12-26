@@ -1,5 +1,5 @@
 {
-  "accuracy": 0.959731543624161,
+  "accuracy": 0.9395973154362416,
   "report": {
     "Iris-setosa": {
       "precision": 1.0,
@@ -8,28 +8,28 @@
       "support": 49.0
     },
     "Iris-versicolor": {
-      "precision": 0.9583333333333334,
-      "recall": 0.92,
-      "f1-score": 0.9387755102040817,
+      "precision": 0.9361702127659575,
+      "recall": 0.88,
+      "f1-score": 0.9072164948453608,
       "support": 50.0
     },
     "Iris-virginica": {
-      "precision": 0.9230769230769231,
-      "recall": 0.96,
-      "f1-score": 0.9411764705882353,
+      "precision": 0.8867924528301887,
+      "recall": 0.94,
+      "f1-score": 0.912621359223301,
       "support": 50.0
     },
-    "accuracy": 0.959731543624161,
+    "accuracy": 0.9395973154362416,
     "macro avg": {
-      "precision": 0.9604700854700855,
-      "recall": 0.96,
-      "f1-score": 0.9599839935974389,
+      "precision": 0.9409875551987154,
+      "recall": 0.94,
+      "f1-score": 0.9399459513562206,
       "support": 149.0
     },
     "weighted avg": {
-      "precision": 0.9602047840302874,
-      "recall": 0.959731543624161,
-      "f1-score": 0.9597154297960794,
+      "precision": 0.9405914985221968,
+      "recall": 0.9395973154362416,
+      "f1-score": 0.9395429040498866,
       "support": 149.0
     }
   }

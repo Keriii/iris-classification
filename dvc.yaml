@@ -1,6 +1,6 @@
 stages:
   preprocess:
-    cmd: python3 src/preprocess.py --input data/raw/iris.csv --output data/preprocessed/iris_processed.csv
+    cmd: python3 src/preprocess.py --input data/raw/iris.csv --output data/preprocessed/iris_processed.csv --add-noise
     deps:
       - src/preprocess.py
       - data/raw/iris.csv
